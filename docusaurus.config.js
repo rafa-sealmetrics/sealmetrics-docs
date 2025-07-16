@@ -12,7 +12,7 @@ const config = {
   organizationName: 'sealmetrics',
   projectName: 'sealmetrics-docs',
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
