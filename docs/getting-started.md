@@ -105,7 +105,7 @@ Ready to get started? Follow these steps:
   </div>
   <div className="col col--4">
     <div className="card">
-      <divClassName="card__header">
+      <div ClassName="card__header">
         <h4>Shopify</h4>
       </div>
       <div className="card__body">
