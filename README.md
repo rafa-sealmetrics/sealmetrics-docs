@@ -1,0 +1,2 @@
+# sealmetrics-docs
+Documentation for Sealmetrics - Privacy-first analytics platform
