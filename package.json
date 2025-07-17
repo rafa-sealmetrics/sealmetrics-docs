@@ -9,12 +9,16 @@
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
-    "serve": "docusaurus serve"
+    "serve": "docusaurus serve",
+    "dev": "tinacms dev -c \"docusaurus start\"",
+    "build:tina": "tinacms build && docusaurus build"
   },
   "dependencies": {
     "@docusaurus/core": "3.5.2",
     "@docusaurus/preset-classic": "3.5.2",
     "@mdx-js/react": "^3.0.0",
+    "@tinacms/cli": "^1.5.21",
+    "tinacms": "^1.5.21",
     "clsx": "^2.0.0",
     "prism-react-renderer": "^2.3.0",
     "react": "^18.0.0",
