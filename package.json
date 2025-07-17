@@ -5,13 +5,11 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
-    "build": "docusaurus build",
+    "build": "docusaurus build && tinacms build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
-    "serve": "docusaurus serve",
-    "dev": "tinacms dev -c \"docusaurus start\"",
-    "build:tina": "tinacms build && docusaurus build"
+    "serve": "docusaurus serve"
   },
   "dependencies": {
     "@docusaurus/core": "3.5.2",
